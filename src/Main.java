@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int age = 19;
-        if (age > 18) {
+        if (age >= 18) {
             System.out.println("Если возраст человека " + age + ", то он совершеннолетний");
         } else {
             System.out.println("Если возраст человека " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
@@ -24,16 +24,16 @@ public class Main {
 
         int ageHuman = 16;
         if (ageHuman >= 2 && ageHuman <= 6) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в детский сад");
         }
         if (ageHuman >= 7 && ageHuman <= 17) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в школу");
         }
         if (ageHuman >= 18 && ageHuman <= 24) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в университет");
         }
         if (ageHuman > 24) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить на работу");
         }
 
         int ageChildren = 6;
